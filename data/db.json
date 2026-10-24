@@ -1,0 +1,649 @@
+{
+  "admins": [
+    {
+      "id": "admin-1",
+      "email": "admin@techforyou.edu",
+      "passwordHash": "$2b$10$bMh2nw65m4ftNHRzv6L/rOgi1qgLmnimnV9t.PjOGyroOV8xzSB2m",
+      "name": "Administrator (Tech For You)",
+      "role": "superadmin",
+      "createdAt": "2026-10-18T10:50:55.237Z",
+      "lastLogin": "2026-10-23T05:52:38.054Z"
+    }
+  ],
+  "students": [
+    {
+      "id": "stu-1792731888303",
+      "studentIdNumber": "TFY-STU-2026-2032",
+      "fullName": "Muhammad Ali",
+      "fatherName": "Ali Raza",
+      "phoneNumber": "03001234567",
+      "email": "ali@example.com",
+      "status": "active",
+      "createdAt": "2026-10-23T05:04:48.303Z",
+      "updatedAt": "2026-10-23T05:04:48.303Z"
+    }
+  ],
+  "courses": [
+    {
+      "id": "course-fs-101",
+      "title": "Full-Stack Web Development & Cloud Architecture (MERN + TypeScript)",
+      "code": "FS-101",
+      "category": "Software Engineering",
+      "duration": "6 Months (480 Academic Hours)",
+      "description": "Comprehensive industry program covering modern React 19, TypeScript, Node.js, Express, MongoDB database architecture, Docker containers, and cloud deployment.",
+      "status": "active",
+      "defaultTemplateId": "tmpl-cyber-emerald",
+      "createdAt": "2026-10-18T10:50:55.238Z",
+      "updatedAt": "2026-10-18T10:50:55.238Z",
+      "learningOutcomes": [
+        {
+          "id": "oc-fs-1",
+          "title": "Design modular front-end architectures using React 19, TypeScript, and modern component systems",
+          "order": 1
+        },
+        {
+          "id": "oc-fs-2",
+          "title": "Architect robust RESTful APIs with Node.js, Express, middleware security, and JWT authorization",
+          "order": 2
+        },
+        {
+          "id": "oc-fs-3",
+          "title": "Model complex relational and document data in MongoDB with indexing and aggregation pipelines",
+          "order": 3
+        },
+        {
+          "id": "oc-fs-4",
+          "title": "Implement full-stack state management, optimistic updates, and real-time WebSocket communication",
+          "order": 4
+        },
+        {
+          "id": "oc-fs-5",
+          "title": "Containerize multi-tier web applications with Docker and deploy to production cloud platforms with automated CI/CD",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "course-ds-201",
+      "title": "Data Science, Machine Learning & Applied Artificial Intelligence",
+      "code": "DS-201",
+      "category": "Data Science & AI",
+      "duration": "6 Months (480 Academic Hours)",
+      "description": "In-depth specialization covering Python data engineering, statistical modeling, machine learning algorithms, deep neural networks, and generative AI deployment.",
+      "status": "active",
+      "defaultTemplateId": "tmpl-cyber-emerald",
+      "createdAt": "2026-10-18T10:50:55.238Z",
+      "updatedAt": "2026-10-18T10:50:55.238Z",
+      "learningOutcomes": [
+        {
+          "id": "oc-ds-1",
+          "title": "Perform exploratory data analysis and feature engineering on high-dimensional unstructured datasets",
+          "order": 1
+        },
+        {
+          "id": "oc-ds-2",
+          "title": "Train, evaluate, and tune supervised and unsupervised machine learning models using Scikit-Learn",
+          "order": 2
+        },
+        {
+          "id": "oc-ds-3",
+          "title": "Build computer vision and NLP models using PyTorch, convolutional layers, and Transformer architectures",
+          "order": 3
+        },
+        {
+          "id": "oc-ds-4",
+          "title": "Integrate and deploy Large Language Model (LLM) agents, vector embeddings, and RAG pipelines",
+          "order": 4
+        },
+        {
+          "id": "oc-ds-5",
+          "title": "Deploy machine learning inference endpoints with FastAPI, Docker, and model monitoring telemetry",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "course-do-301",
+      "title": "DevOps Engineering, Kubernetes & Multi-Cloud Infrastructure",
+      "code": "DO-301",
+      "category": "Cloud & Infrastructure",
+      "duration": "4 Months (320 Academic Hours)",
+      "description": "Hands-on enterprise program covering Linux administration, Infrastructure as Code with Terraform, Kubernetes clustering, CI/CD pipelines, and cloud observability.",
+      "status": "active",
+      "defaultTemplateId": "tmpl-cyber-emerald",
+      "createdAt": "2026-10-18T10:50:55.238Z",
+      "updatedAt": "2026-10-18T10:50:55.238Z",
+      "learningOutcomes": [
+        {
+          "id": "oc-do-1",
+          "title": "Provision scalable multi-region cloud infrastructure using Terraform and Infrastructure as Code (IaC)",
+          "order": 1
+        },
+        {
+          "id": "oc-do-2",
+          "title": "Deploy, scale, and manage production Kubernetes microservices clusters with Helm charts and Ingress controllers",
+          "order": 2
+        },
+        {
+          "id": "oc-do-3",
+          "title": "Build automated CI/CD deployment pipelines with automated linting, test suites, and container registry pushing",
+          "order": 3
+        },
+        {
+          "id": "oc-do-4",
+          "title": "Implement cluster-wide monitoring, distributed tracing, and log aggregation with Prometheus and Grafana",
+          "order": 4
+        },
+        {
+          "id": "oc-do-5",
+          "title": "Enforce enterprise cloud security standards, least-privilege IAM policies, and secret management vaults",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "course-ux-401",
+      "title": "Advanced UI/UX Product Design & Design Systems Engineering",
+      "code": "UX-401",
+      "category": "Design & Product",
+      "duration": "3 Months (240 Academic Hours)",
+      "description": "Mastery in user research, design psychology, Figma component token systems, accessibility compliance (WCAG AA), and design-to-code workflow.",
+      "status": "active",
+      "defaultTemplateId": "tmpl-cyber-emerald",
+      "createdAt": "2026-10-18T10:50:55.238Z",
+      "updatedAt": "2026-10-18T10:50:55.238Z",
+      "learningOutcomes": [
+        {
+          "id": "oc-ux-1",
+          "title": "Conduct qualitative user research, persona creation, customer journey mapping, and empathy analysis",
+          "order": 1
+        },
+        {
+          "id": "oc-ux-2",
+          "title": "Build production-ready design systems in Figma with auto-layout, design tokens, and variant properties",
+          "order": 2
+        },
+        {
+          "id": "oc-ux-3",
+          "title": "Design accessible, high-contrast user interfaces strictly conforming to WCAG AA international criteria",
+          "order": 3
+        },
+        {
+          "id": "oc-ux-4",
+          "title": "Construct interactive responsive prototypes for web, tablet, and mobile with realistic micro-animations",
+          "order": 4
+        },
+        {
+          "id": "oc-ux-5",
+          "title": "Run usability benchmarking tests, synthesize telemetry feedback, and document developer handoff specifications",
+          "order": 5
+        }
+      ]
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "enr-1792731888303",
+      "studentId": "stu-1792731888303",
+      "courseId": "course-fs-101",
+      "enrollmentDate": "2026-10-23",
+      "status": "completed",
+      "marks": {
+        "param-1": 88,
+        "param-2": 92,
+        "param-3": 85,
+        "param-4": 90,
+        "param-theory": 88,
+        "param-practical": 92,
+        "param-project": 90,
+        "param-viva": 45,
+        "param-assignments": 48
+      },
+      "createdAt": "2026-10-23T05:04:48.303Z",
+      "updatedAt": "2026-10-23T05:04:48.303Z",
+      "certificateId": "cert-1792731931013",
+      "calculatedPercentage": 90.7,
+      "calculatedGrade": "A+",
+      "calculatedResult": "Pass with High Distinction",
+      "isEligibleForCertificate": true
+    }
+  ],
+  "gradingConfigs": [
+    {
+      "id": "gc-default",
+      "title": "Standard Institute Weightage Scheme (2026)",
+      "method": "weighted",
+      "passingPercentage": 50,
+      "isDefault": true,
+      "createdAt": "2026-10-18T10:50:55.238Z",
+      "updatedAt": "2026-10-18T10:50:55.238Z",
+      "parameters": [
+        {
+          "id": "param-theory",
+          "name": "Theory & Technical Foundations",
+          "maxMarks": 100,
+          "weightage": 25,
+          "isRequired": true,
+          "description": "Written & architectural conceptual assessment"
+        },
+        {
+          "id": "param-practical",
+          "name": "Hands-on Practical Labs & Coding",
+          "maxMarks": 100,
+          "weightage": 30,
+          "isRequired": true,
+          "description": "Lab tests, debugging challenges, and real-time coding"
+        },
+        {
+          "id": "param-project",
+          "name": "Comprehensive Capstone Project",
+          "maxMarks": 100,
+          "weightage": 25,
+          "isRequired": true,
+          "description": "Production-ready full deployment & GitHub review"
+        },
+        {
+          "id": "param-viva",
+          "name": "Technical Defense & Viva Voce",
+          "maxMarks": 50,
+          "weightage": 10,
+          "isRequired": true,
+          "description": "Oral panel questioning & architecture explanation"
+        },
+        {
+          "id": "param-assignments",
+          "name": "Continuous Assignments & Quizzes",
+          "maxMarks": 50,
+          "weightage": 10,
+          "isRequired": false,
+          "description": "Weekly milestones and task submissions"
+        }
+      ],
+      "rules": [
+        {
+          "minPercentage": 90,
+          "grade": "A+",
+          "resultLabel": "Pass with High Distinction",
+          "isPassing": true,
+          "description": "Outstanding performance across all theoretical & practical benchmarks"
+        },
+        {
+          "minPercentage": 80,
+          "grade": "A",
+          "resultLabel": "Pass with Distinction",
+          "isPassing": true,
+          "description": "Excellent technical execution and conceptual command"
+        },
+        {
+          "minPercentage": 70,
+          "grade": "B",
+          "resultLabel": "Pass with Merit",
+          "isPassing": true,
+          "description": "Very good understanding and consistent lab achievements"
+        },
+        {
+          "minPercentage": 60,
+          "grade": "C",
+          "resultLabel": "Pass (Satisfactory)",
+          "isPassing": true,
+          "description": "Satisfactory completion meeting standard industry requirements"
+        },
+        {
+          "minPercentage": 50,
+          "grade": "D",
+          "resultLabel": "Pass",
+          "isPassing": true,
+          "description": "Marginal pass meeting minimum prescribed thresholds"
+        },
+        {
+          "minPercentage": 0,
+          "grade": "F",
+          "resultLabel": "Fail",
+          "isPassing": false,
+          "description": "Did not meet the prerequisite passing criteria"
+        }
+      ]
+    }
+  ],
+  "templates": [
+    {
+      "id": "tmpl-web-development",
+      "name": "Professional Web Development (Floating Code Signs)",
+      "description": "Specialized Web Development certificate theme featuring ambient floating coding tokens (</>, {}, async, git, React), cyber emerald borders, circuitry motifs, and Course Instructor accreditation.",
+      "themeStyle": "web_development",
+      "primaryColor": "#040907",
+      "accentColor": "#10b981",
+      "secondaryColor": "#00ff87",
+      "borderStyle": "cyber_circuit",
+      "showFatherName": true,
+      "showGradeFront": true,
+      "showSeal": true,
+      "showQR": true,
+      "showSignatures": true,
+      "showFloatingCodeSigns": true,
+      "isDefault": true
+    },
+    {
+      "id": "tmpl-cyber-emerald",
+      "name": "Tech For You Official Cyber Emerald (Logo Theme)",
+      "description": "Official Tech For You styling with obsidian borders, electric cyber green highlights (#10b981), circuit motifs, and official seal.",
+      "themeStyle": "cyber_emerald",
+      "primaryColor": "#060b09",
+      "accentColor": "#10b981",
+      "secondaryColor": "#00ff87",
+      "borderStyle": "cyber_circuit",
+      "showFatherName": true,
+      "showGradeFront": true,
+      "showSeal": true,
+      "showQR": true,
+      "showSignatures": true,
+      "showFloatingCodeSigns": true,
+      "isDefault": false
+    },
+    {
+      "id": "tmpl-imperial-gold",
+      "name": "Tech For You Cyber Gold Edition",
+      "description": "Deep obsidian and cyber emerald styling with golden dual inlay lines and ceremonial seal.",
+      "themeStyle": "imperial_gold",
+      "primaryColor": "#0a0f0d",
+      "accentColor": "#10b981",
+      "secondaryColor": "#d4af37",
+      "borderStyle": "ornate",
+      "showFatherName": true,
+      "showGradeFront": true,
+      "showSeal": true,
+      "showQR": true,
+      "showSignatures": true,
+      "showFloatingCodeSigns": false,
+      "isDefault": false
+    },
+    {
+      "id": "tmpl-modern-minimal",
+      "name": "Tech For You Modern Clean Cyber",
+      "description": "Clean modern architectural styling with vivid emerald highlights, high contrast typography, and official crest.",
+      "themeStyle": "modern_minimal",
+      "primaryColor": "#05080a",
+      "accentColor": "#00ff87",
+      "secondaryColor": "#10b981",
+      "borderStyle": "minimal",
+      "showFatherName": true,
+      "showGradeFront": true,
+      "showSeal": true,
+      "showQR": true,
+      "showSignatures": true,
+      "showFloatingCodeSigns": true,
+      "isDefault": false
+    }
+  ],
+  "certificates": [
+    {
+      "id": "cert-1792731931013",
+      "serialNumber": "TFY-2026-FS10-2183",
+      "verificationId": "d1626c40-2988-4e01-ac73-4de07b0daff7",
+      "studentId": "stu-1792731888303",
+      "courseId": "course-fs-101",
+      "enrollmentId": "enr-1792731888303",
+      "status": "VALID",
+      "isEligibleForCertificate": true,
+      "issueDate": "2026-10-23",
+      "completionDate": "2026-10-23",
+      "issuedBy": "admin@techforyou.edu",
+      "qrCodeDataUrl": "data:image/png;base64,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",
+      "verificationUrl": "https://ais-dev-p3z4zroockba6w4j5lpxkc-332568307762.asia-southeast1.run.app/verify/d1626c40-2988-4e01-ac73-4de07b0daff7",
+      "createdAt": "2026-10-23T05:05:31.013Z",
+      "updatedAt": "2026-10-23T05:05:31.013Z",
+      "snapshot": {
+        "student": {
+          "id": "stu-1792731888303",
+          "fullName": "Muhammad Ali",
+          "fatherName": "Ali Raza",
+          "studentIdNumber": "TFY-STU-2026-2032",
+          "phoneMasked": "0300123••••567",
+          "email": "ali@example.com"
+        },
+        "course": {
+          "id": "course-fs-101",
+          "title": "Full-Stack Web Development & Cloud Architecture (MERN + TypeScript)",
+          "code": "FS-101",
+          "category": "Software Engineering",
+          "duration": "6 Months (480 Academic Hours)",
+          "learningOutcomes": [
+            "Design modular front-end architectures using React 19, TypeScript, and modern component systems",
+            "Architect robust RESTful APIs with Node.js, Express, middleware security, and JWT authorization",
+            "Model complex relational and document data in MongoDB with indexing and aggregation pipelines",
+            "Implement full-stack state management, optimistic updates, and real-time WebSocket communication",
+            "Containerize multi-tier web applications with Docker and deploy to production cloud platforms with automated CI/CD"
+          ]
+        },
+        "grading": {
+          "method": "weighted",
+          "parameters": [
+            {
+              "parameterId": "param-theory",
+              "name": "Theory & Technical Foundations",
+              "maxMarks": 100,
+              "obtainedMarks": 88,
+              "weightage": 25,
+              "percentage": 88
+            },
+            {
+              "parameterId": "param-practical",
+              "name": "Hands-on Practical Labs & Coding",
+              "maxMarks": 100,
+              "obtainedMarks": 92,
+              "weightage": 30,
+              "percentage": 92
+            },
+            {
+              "parameterId": "param-project",
+              "name": "Comprehensive Capstone Project",
+              "maxMarks": 100,
+              "obtainedMarks": 90,
+              "weightage": 25,
+              "percentage": 90
+            },
+            {
+              "parameterId": "param-viva",
+              "name": "Technical Defense & Viva Voce",
+              "maxMarks": 50,
+              "obtainedMarks": 45,
+              "weightage": 10,
+              "percentage": 90
+            },
+            {
+              "parameterId": "param-assignments",
+              "name": "Continuous Assignments & Quizzes",
+              "maxMarks": 50,
+              "obtainedMarks": 48,
+              "weightage": 10,
+              "percentage": 96
+            }
+          ],
+          "totalMaxMarks": 400,
+          "totalObtainedMarks": 363,
+          "overallPercentage": 90.7,
+          "grade": "A+",
+          "result": "Pass with High Distinction",
+          "isPassed": true,
+          "passingPercentage": 50,
+          "rulesSnapshot": [
+            {
+              "minPercentage": 90,
+              "grade": "A+",
+              "resultLabel": "Pass with High Distinction",
+              "isPassing": true,
+              "description": "Outstanding performance across all theoretical & practical benchmarks"
+            },
+            {
+              "minPercentage": 80,
+              "grade": "A",
+              "resultLabel": "Pass with Distinction",
+              "isPassing": true,
+              "description": "Excellent technical execution and conceptual command"
+            },
+            {
+              "minPercentage": 70,
+              "grade": "B",
+              "resultLabel": "Pass with Merit",
+              "isPassing": true,
+              "description": "Very good understanding and consistent lab achievements"
+            },
+            {
+              "minPercentage": 60,
+              "grade": "C",
+              "resultLabel": "Pass (Satisfactory)",
+              "isPassing": true,
+              "description": "Satisfactory completion meeting standard industry requirements"
+            },
+            {
+              "minPercentage": 50,
+              "grade": "D",
+              "resultLabel": "Pass",
+              "isPassing": true,
+              "description": "Marginal pass meeting minimum prescribed thresholds"
+            },
+            {
+              "minPercentage": 0,
+              "grade": "F",
+              "resultLabel": "Fail",
+              "isPassing": false,
+              "description": "Did not meet the prerequisite passing criteria"
+            }
+          ]
+        },
+        "isEligibleForCertificate": true,
+        "candidateEligibilityStatus": "ELIGIBLE",
+        "institute": {
+          "name": "Tech For You",
+          "tagline": "Centre of Advanced Software Development, Engineering & Certified Computing",
+          "registrationNumber": "TFY-REG-2021-0894",
+          "address": "Kot Radha Kishan",
+          "phone": "03194331346",
+          "email": "",
+          "website": "https://techforyou.edu.pk",
+          "instructorName": "M.Moiz Raza",
+          "instructorTitle": "Course Instructor",
+          "instructorSignatureUrl": "M. Moiz Raza",
+          "directorName": "",
+          "directorTitle": "",
+          "registrarName": "",
+          "registrarTitle": "",
+          "sealUrl": "/logo.png",
+          "directorSignatureUrl": "",
+          "registrarSignatureUrl": ""
+        },
+        "template": {
+          "id": "tmpl-web-development",
+          "name": "Professional Web Development (Floating Code Signs)",
+          "themeStyle": "web_development",
+          "primaryColor": "#040907",
+          "accentColor": "#10b981",
+          "borderStyle": "cyber_circuit",
+          "showFatherName": true,
+          "showGradeFront": true,
+          "showSeal": true,
+          "showQR": true,
+          "showSignatures": true,
+          "showFloatingCodeSigns": true
+        }
+      }
+    }
+  ],
+  "settings": {
+    "instituteName": "Tech For You",
+    "tagline": "Centre of Advanced Software Development, Engineering & Certified Computing",
+    "registrationNumber": "TFY-REG-2021-0894",
+    "accreditationDetails": "Centre of Advanced Software Engineering & Certified Computing",
+    "address": "Kot Radha Kishan",
+    "phone": "03194331346",
+    "email": "",
+    "website": "https://techforyou.edu.pk",
+    "instructorName": "M.Moiz Raza",
+    "instructorTitle": "Course Instructor",
+    "instructorSignatureUrl": "M. Moiz Raza",
+    "directorName": "",
+    "directorTitle": "",
+    "directorSignatureUrl": "",
+    "registrarName": "",
+    "registrarTitle": "",
+    "registrarSignatureUrl": "",
+    "instituteSealUrl": "/logo.png",
+    "logoUrl": "/logo.png",
+    "certificateSerialPrefix": "TFY-2026",
+    "certificateTitle": "CERTIFICATE OF PROFESSIONAL COMPETENCE",
+    "certificateWording": "This is to certify that the candidate named herein has satisfactorily fulfilled all prescribed academic prerequisites, technical laboratory assignments, practical engineering modules, and comprehensive capstone project evaluations with commendable proficiency.",
+    "verificationInstructions": "This certificate is an official cryptographic credential issued by Tech For You. Verify authenticity by scanning the official QR code or visiting https://techforyou.edu.pk/verify with the serial number."
+  },
+  "auditLogs": [
+    {
+      "id": "log-1792734758058-w81ll",
+      "timestamp": "2026-10-23T05:52:38.058Z",
+      "actor": "admin@techforyou.edu",
+      "action": "ADMIN_LOGIN",
+      "entityType": "auth",
+      "entityId": "admin-1",
+      "details": "Admin admin@techforyou.edu logged in successfully",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-1792731931013-1qko2",
+      "timestamp": "2026-10-23T05:05:31.013Z",
+      "actor": "admin@techforyou.edu",
+      "action": "CERTIFICATE_ISSUED",
+      "entityType": "certificate",
+      "entityId": "cert-1792731931013",
+      "details": "Issued Certificate TFY-2026-FS10-2183 to Muhammad Ali for course Full-Stack Web Development & Cloud Architecture (MERN + TypeScript) (Grade A+)",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-1792731918547-tpkkg",
+      "timestamp": "2026-10-23T05:05:18.547Z",
+      "actor": "admin@techforyou.edu",
+      "action": "CERTIFICATE_DELETED",
+      "entityType": "certificate",
+      "entityId": "cert-1792731899106",
+      "details": "Deleted certificate TFY-2026-FS10-3968 for candidate Muhammad Ali (Course: Full-Stack Web Development & Cloud Architecture (MERN + TypeScript))",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-1792731899107-oasx3",
+      "timestamp": "2026-10-23T05:04:59.107Z",
+      "actor": "admin@techforyou.edu",
+      "action": "CERTIFICATE_ISSUED",
+      "entityType": "certificate",
+      "entityId": "cert-1792731899106",
+      "details": "Issued Academic Transcript (Candidate Ineligible) TFY-2026-FS10-3968 to Muhammad Ali for course Full-Stack Web Development & Cloud Architecture (MERN + TypeScript) (Grade F)",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-1792731888304-7q4kl",
+      "timestamp": "2026-10-23T05:04:48.304Z",
+      "actor": "admin@techforyou.edu",
+      "action": "STUDENT_ENROLLED",
+      "entityType": "enrollment",
+      "entityId": "enr-1792731888303",
+      "details": "Enrolled student stu-1792731888303 into course course-fs-101",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-1792731845436-2napv",
+      "timestamp": "2026-10-23T05:04:05.436Z",
+      "actor": "admin@techforyou.edu",
+      "action": "ADMIN_LOGIN",
+      "entityType": "auth",
+      "entityId": "admin-1",
+      "details": "Admin admin@techforyou.edu logged in successfully",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-1792325060856-qcyz4",
+      "timestamp": "2026-10-18T12:04:20.856Z",
+      "actor": "admin@techforyou.edu",
+      "action": "ADMIN_LOGIN",
+      "entityType": "auth",
+      "entityId": "admin-1",
+      "details": "Admin admin@techforyou.edu logged in successfully",
+      "ipAddress": "127.0.0.1"
+    }
+  ]
+}

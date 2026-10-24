@@ -1,0 +1,164 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-cinzel {
+    font-family: 'Cinzel', Georgia, serif;
+  }
+  .font-playfair {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+  .font-sans {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .font-code {
+    font-family: 'Fira Code', 'JetBrains Mono', monospace;
+  }
+  .font-signature {
+    font-family: 'Dancing Script', 'Alex Brush', cursive;
+  }
+}
+
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(2deg);
+  }
+}
+
+@keyframes floatReverse {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(7px) rotate(-2deg);
+  }
+}
+
+.animate-float-slow {
+  animation: floatSlow 6s ease-in-out infinite;
+}
+
+.animate-float-reverse {
+  animation: floatReverse 7s ease-in-out infinite;
+}
+
+/* Certificate print styles - Default Landscape 2 Pages (Certificate & Marksheet only) */
+@page {
+  size: landscape;
+  margin: 0mm;
+}
+
+@media print {
+  html, body {
+    width: 297mm !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #ffffff !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Hide headers, footers, navigation, controls, and buttons */
+  header,
+  footer,
+  nav,
+  .no-print,
+  button,
+  .modal-close-btn,
+  .toast-notification {
+    display: none !important;
+  }
+
+  /* Reset outer application wrappers & modals so no gray backdrop or shadows appear */
+  body > * {
+    background: transparent !important;
+  }
+
+  .certificate-modal-overlay,
+  .certificate-modal-content,
+  .certificate-viewer-wrapper,
+  .certificate-scroll-container {
+    position: static !important;
+    display: block !important;
+    max-width: none !important;
+    max-height: none !important;
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: transparent !important;
+    backdrop-filter: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    overflow: visible !important;
+  }
+
+  /* Exactly 2 landscape pages: Certificate (Page 1) and Marksheet (Page 2) */
+  .certificate-print-page {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    position: relative !important;
+    width: 297mm !important;
+    height: 209mm !important;
+    min-height: 209mm !important;
+    max-height: 209mm !important;
+    aspect-ratio: auto !important;
+    box-sizing: border-box !important;
+    margin: 0 !important;
+    padding: 6mm !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    overflow: hidden !important;
+    page-break-after: always !important;
+    break-after: page !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  /* Marksheet / Back side: avoid breaking so no 3rd blank page is produced */
+  .certificate-print-page-back,
+  .certificate-print-page:last-child {
+    page-break-after: avoid !important;
+    break-after: avoid !important;
+  }
+}
+
+/* Custom pattern and decorative styles for luxury certificate frames */
+.certificate-guilloche-bg {
+  background-color: #fafbfc;
+  background-image: radial-gradient(#10b981 0.75px, transparent 0.75px), radial-gradient(#064e3b 0.75px, #fafbfc 0.75px);
+  background-size: 28px 28px;
+  background-position: 0 0, 14px 14px;
+  background-opacity: 0.05;
+}
+
+.certificate-cyber-dark-bg {
+  background-color: #060b09;
+  background-image: 
+    linear-gradient(rgba(16, 185, 129, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(16, 185, 129, 0.04) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.cyber-green-text {
+  background: linear-gradient(135deg, #10b981 0%, #00ff66 50%, #059669 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cyber-green-glow {
+  box-shadow: 0 0 20px rgba(16, 185, 129, 0.25), 0 0 40px rgba(0, 255, 102, 0.1);
+}
+
+.cyber-green-border {
+  border-image: linear-gradient(to right, #059669, #00ff66, #10b981, #00ff66, #059669) 1;
+}

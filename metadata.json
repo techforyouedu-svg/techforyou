@@ -1,0 +1,6 @@
+{
+  "name": "Tech For You — Certificate Management & Verification System",
+  "description": "Official certificate management, verification, multi-parameter grading, and credential issuance portal for Tech For You Institute.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
